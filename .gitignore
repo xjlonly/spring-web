@@ -56,3 +56,9 @@ Temporary Items
 .apdisk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,java
+target
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/jarRepositories.xml
+/.idea/encodings.xml
+/.idea/compiler.xml
