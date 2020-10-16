@@ -46,7 +46,7 @@ public class AppConfig {
     ViewResolver createViewResolver(@Autowired ServletContext servletContext){
         PebbleEngine engine = new PebbleEngine.Builder()
                 .autoEscaping(true)
-                .cacheActive(true)
+                .cacheActive(false)
                 .loader(new ServletLoader(servletContext))
                 .extension(new SpringExtension())
                 .build();
