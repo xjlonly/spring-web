@@ -1,5 +1,8 @@
 package org.example.mv.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -13,7 +16,7 @@ public class User {
     private String email;
     private String name;
     private String password;
-    private long createAt;
+    private long createdAt;
 
     public Long getId() {
         return id;
@@ -39,6 +42,7 @@ public class User {
         this.name = name;
     }
 
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     public String getPassword() {
         return password;
     }
@@ -47,16 +51,16 @@ public class User {
         this.password = password;
     }
 
-    public long getCreateAt() {
-        return createAt;
+    public long getCreatedAt() {
+        return createdAt;
     }
 
-    public void setCreateAt(long createAt) {
-        this.createAt = createAt;
+    public void setCreatedAt(long createdAt) {
+        this.createdAt = createdAt;
     }
 
     public String getCreateDateTime(){
-        return Instant.ofEpochMilli(this.createAt).atZone(ZoneId.systemDefault())
+        return Instant.ofEpochMilli(this.createdAt).atZone(ZoneId.systemDefault())
                 .format(DateTimeFormatter.ISO_LOCAL_DATE_TIME);
     }
 
@@ -72,6 +76,6 @@ public class User {
 
     public String toString(){
         return String.format("User[id=%s, email=%s,name=%s, password=%s,createAt=%s,createdDateTime=%s]",
-                getId(),getEmail(),getName(),getPassword(),getCreateAt(),getCreateDateTime());
+                getId(),getEmail(),getName(),getPassword(),getCreatedAt(),getCreateDateTime());
     }
 }

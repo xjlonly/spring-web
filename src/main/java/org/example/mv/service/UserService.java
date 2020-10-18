@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 
 import java.net.PasswordAuthentication;
 import java.sql.Statement;
+import java.util.List;
 import java.util.Objects;
 
 @Component
@@ -33,6 +34,10 @@ public class UserService {
         return jdbcTemplate.queryForObject("select * from users where id=?", new Object[]{id}, userRowMapper);
     }
 
+    public List<User> getUsers(){
+        return jdbcTemplate.query("select * from users", userRowMapper);
+    }
+
     public User signin(String email, String password){
         logger.info("try login by {}...", email);
         User user = getUserByEmail(email);
@@ -48,7 +53,7 @@ public class UserService {
         user.setEmail(email);
         user.setPassword(password);
         user.setName(name);
-        user.setCreateAt(System.currentTimeMillis());
+        user.setCreatedAt(System.currentTimeMillis());
         KeyHolder holder = new GeneratedKeyHolder();
 
         if(1 != jdbcTemplate.update(
@@ -59,7 +64,7 @@ public class UserService {
                     ps.setObject(1,email);
                     ps.setObject(2,name);
                     ps.setObject(3,password);
-                    ps.setObject(4,user.getCreateAt());
+                    ps.setObject(4,user.getCreatedAt());
                     return ps;
                 }, holder)) {
             throw new RuntimeException(" insert failed");
@@ -69,7 +74,7 @@ public class UserService {
     }
 
     public void updateUser(User user){
-        if(1 != jdbcTemplate.update("update users set name=? where id=?",user.getName(),user.getId())){
+        if(1 != jdbcTemplate.update("update users set name=?,password=? where id=?",user.getName(),user.getPassword(),user.getId())){
             throw new RuntimeException("User not found by id");
         }
     }
