@@ -1,5 +1,7 @@
 package org.example.mv;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mitchellbosecke.pebble.PebbleEngine;
 import com.mitchellbosecke.pebble.extension.AbstractExtension;
 import com.mitchellbosecke.pebble.extension.Extension;
@@ -77,6 +79,39 @@ public class AppConfig {
         };
     }
 
+
+
+    @Bean
+    LocaleResolver createLocalResolver(){
+        var clr = new CookieLocaleResolver();
+        clr.setDefaultLocale(Locale.ENGLISH);
+        clr.setDefaultTimeZone(TimeZone.getDefault());
+        return clr;
+    }
+    @Bean("i18n")
+    MessageSource createMessageSource(){
+        var messageSource = new ResourceBundleMessageSource();
+        messageSource.setDefaultEncoding("UTF-8");
+        messageSource.setBasename("messages");
+        return messageSource;
+    }
+
+    @Bean
+    WebSocketConfigurer createWebSocketConfigurer(@Autowired ChatHandler chatHandler,
+                                                  @Autowired ChatHandshakeInterceptor chatHandshakeInterceptor){
+        return webSocketHandlerRegistry -> {
+            //把URL与指定的WebSocketHandler关联，可关联多个
+            webSocketHandlerRegistry.addHandler(chatHandler,"/chat").addInterceptors(chatHandshakeInterceptor);
+        };
+    }
+
+    @Bean
+    ObjectMapper createObjectMapper(){
+        var om = new ObjectMapper();
+        om.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+        return om;
+    }
+
     @Bean
     ViewResolver createViewResolver(@Autowired ServletContext servletContext,
                                     @Autowired @Qualifier("i18n") MessageSource messageSource){
@@ -126,29 +161,7 @@ public class AppConfig {
         };
     }
 
-    @Bean
-    LocaleResolver createLocalResolver(){
-        var clr = new CookieLocaleResolver();
-        clr.setDefaultLocale(Locale.ENGLISH);
-        clr.setDefaultTimeZone(TimeZone.getDefault());
-        return clr;
-    }
-    @Bean("i18n")
-    MessageSource createMessageSource(){
-        var messageSource = new ResourceBundleMessageSource();
-        messageSource.setDefaultEncoding("UTF-8");
-        messageSource.setBasename("messages");
-        return messageSource;
-    }
 
-    @Bean
-    WebSocketConfigurer createWebSocketConfigurer(@Autowired ChatHandler chatHandler,
-                                                  @Autowired ChatHandshakeInterceptor chatHandshakeInterceptor){
-        return webSocketHandlerRegistry -> {
-            //把URL与指定的WebSocketHandler关联，可关联多个
-            webSocketHandlerRegistry.addHandler(chatHandler,"/chat").addInterceptors(chatHandshakeInterceptor);
-        };
-    }
 
     //jdbc-------------------
     @Value("${jdbc.url}")

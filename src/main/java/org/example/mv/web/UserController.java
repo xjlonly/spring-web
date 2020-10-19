@@ -21,7 +21,7 @@ import java.util.Map;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-    public  static final String USER_KEY = "_user_";
+    public  static final String USER_KEY = "__user__";
     final Logger logger = LoggerFactory.getLogger(getClass());
 
     @Autowired
