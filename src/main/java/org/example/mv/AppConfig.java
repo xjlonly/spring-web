@@ -24,6 +24,9 @@ import org.springframework.core.convert.converter.ConditionalGenericConverter;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy;
+import org.springframework.scheduling.TaskScheduler;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
@@ -43,10 +46,12 @@ import java.util.*;
 
 @Configuration
 @ComponentScan
+@EnableScheduling
 @EnableWebSocket
 @EnableWebMvc
+@EnableMBeanExport //自动注册Bean
 @EnableTransactionManagement
-@PropertySource("classpath:/jdbc.properties")
+@PropertySource({"classpath:/jdbc.properties", "classpath:/task.properties"})
 public class AppConfig {
 
 
@@ -150,6 +155,14 @@ public class AppConfig {
         };
     }
 
+    //因websocket与Scheduler注解冲突 才需要创建此Bean
+    @Bean
+    TaskScheduler createTaskScheduler(){
+        ThreadPoolTaskScheduler threadPoolTaskScheduler = new ThreadPoolTaskScheduler();
+        threadPoolTaskScheduler.setPoolSize(20);
+        threadPoolTaskScheduler.initialize();
+        return threadPoolTaskScheduler;
+    }
     //jdbc-------------------
     @Value("${jdbc.url}")
     String jdbcUrl;
