@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3016e48-9635-4132-8bb7-348b10998f3a" name="默认的" comment="add websocket">
+      <change afterPath="$PROJECT_DIR$/jms-data/bin/artemis-service.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/bin/artemis-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/bin/artemis.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/data/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/data/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/data/journal/activemq-data-1.amq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/data/journal/activemq-data-2.amq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/data/journal/server.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/data/journal/serverlock.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/data/journal/serverlock.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/etc/artemis-roles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/etc/artemis-users.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/etc/artemis.profile.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/etc/bootstrap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/etc/broker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/etc/jolokia-access.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/etc/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/etc/login.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/etc/management.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/lock/cli.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/META-INF/maven/org.apache.activemq/activemq-branding/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/META-INF/maven/org.apache.activemq/activemq-branding/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/WEB-INF/classes/META-INF/DEPENDENCIES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/WEB-INF/classes/META-INF/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/WEB-INF/classes/META-INF/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/WEB-INF/classes/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/css/activemq.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/css/branding.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/doc/welcome.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/img/activemq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/img/checkbox-background-checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/img/checkbox-background-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/img/checkbox-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/img/input-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/img/login-screen-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/img/login-screen-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-activemq-branding_war-_activemq-branding-any-1996080507011961751.dir/webapp/plugin/js/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/META-INF/maven/org.apache.activemq/artemis-plugin/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/META-INF/maven/org.apache.activemq/artemis-plugin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/WEB-INF/classes/META-INF/DEPENDENCIES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/WEB-INF/classes/META-INF/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/WEB-INF/classes/META-INF/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/WEB-INF/classes/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/addresses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/artemisLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/brokerDiagram.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/browseQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/connections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/consumers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/createAddress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/createQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/deleteAddress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/deleteQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/preferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/producers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/queues.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/sendMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/html/sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/addresses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/artemisHelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/artemisPlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/artemisService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/brokerDiagram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/browse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/connections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/consumers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/jmsHeaderSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/preferences.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/producers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/queues.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/send.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/sessions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/js/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-artemis-plugin_war-_artemis-plugin-any-2318164467293890249.dir/webapp/plugin/lib/artemis-console.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/META-INF/INDEX.LIST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/META-INF/maven/io.hawt/hawtio-web/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/META-INF/maven/io.hawt/hawtio-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/META-INF/maven/org.apache.activemq/artemis-console/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/META-INF/maven/org.apache.activemq/artemis-console/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/WEB-INF/classes/META-INF/DEPENDENCIES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/WEB-INF/classes/META-INF/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/WEB-INF/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/WEB-INF/classes/META-INF/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/WEB-INF/classes/jolokia-access.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/WEB-INF/classes/springbatch.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/BUILDING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/DEVELOPERS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/FAQ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/coreDeveloper.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/developer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/img/help-preferences.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/img/help-subtopic-nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/img/help-topic-nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/preferences.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/doc/welcome.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/branding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/corePreferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/debug.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/fileUpload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/jmxPreferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/jolokiaPreferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/layoutFull.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/layoutTree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/loggingPreferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/pluginPreferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/preferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/resetPreferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/core/html/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/dashboard/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/dashboard/html/addToDashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/dashboard/html/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/dashboard/html/editDashboards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/dashboard/html/import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/dashboard/html/layoutDashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/diagnostics/css/diagnostics.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/diagnostics/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/diagnostics/html/flags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/diagnostics/html/heap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/diagnostics/html/jfr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/diagnostics/html/layoutDiagnostics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/forms/doc/developer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/forms/html/formGrid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/forms/html/formMapDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/forms/html/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/forms/html/testTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/insight/dashboards/camel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/insight/dashboards/default" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/insight/dashboards/logs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/insight/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/insight/html/all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/insight/html/elasticsearch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/insight/html/eshead.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/insight/html/jvms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/insight/html/layoutInsight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jetty/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jetty/html/applications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jetty/html/connectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jetty/html/jettyTabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jetty/html/layoutJettyTabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jetty/html/server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jetty/html/threadpools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jetty/html/uninstallDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jmx/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jmx/html/areaChart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jmx/html/attributeToolBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jmx/html/attributes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jmx/html/chartEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jmx/html/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jmx/html/donutChart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jmx/html/operations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jmx/html/subLevelTabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jvm/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jvm/html/connect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jvm/html/discover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jvm/html/layoutConnect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jvm/html/local.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/jvm/html/reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/karaf/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/karaf/html/feature-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/karaf/html/feature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/karaf/html/features.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/karaf/html/scr-component-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/karaf/html/scr-component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/karaf/html/scr-components.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/karaf/html/server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/log/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/log/html/logs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/log/html/preferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/bundle-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/bundle-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/bundle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/bundles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/configurations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/framework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/layoutOsgi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/package-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/packages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/pid-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/pid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/osgi/html/svc-dependencies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/perspective/doc/developer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/perspective/html/defaultPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/runtime/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/runtime/html/layoutRuntime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/runtime/html/metrics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/runtime/html/overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/runtime/html/systemProperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/source/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/source/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/source/html/javadoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/source/html/source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/css/3270.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/css/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/doc/welcome_example.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Droid-Sans-Mono/DroidSansMono-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Droid-Sans-Mono/DroidSansMono-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Droid-Sans-Mono/DroidSansMono-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Droid-Sans-Mono/DroidSansMono-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Droid-Sans-Mono/Google Android License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Droid-Sans-Mono/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Effects-Eighty/EffectsEighty.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Effects-Eighty/EffectsEighty.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Effects-Eighty/EffectsEightyBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Effects-Eighty/EffectsEightyBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Effects-Eighty/EffectsEightyBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Effects-Eighty/EffectsEightyBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Effects-Eighty/EffectsEightyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Effects-Eighty/EffectsEightyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Effects-Eighty/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/Apache License Version 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Bold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-BoldItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-BoldItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-BoldItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-ExtraBold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-ExtraBold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-ExtraBold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-ExtraBoldItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-ExtraBoldItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-ExtraBoldItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Italic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Italic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Italic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Light-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Light-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-LightItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-LightItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-LightItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Semibold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Semibold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-Semibold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-SemiboldItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-SemiboldItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/OpenSans-SemiboldItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/fonts/Open-Sans/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/html/preferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/themes/img/default/hawtio-nologo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/threads/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/threads/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/tree/doc/developer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/doc/developerPage1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/doc/developerPage2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/breadcrumbs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/colorPicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/confirmDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/developerPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/dropDown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/editableProperty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/editorPreferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/multiItemConfirmActionDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/pane.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/slideout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/tablePager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/tagFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/auto-columns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/auto-dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/breadcrumbs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/color-picker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/confirm-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/drop-down.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/editable-property.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/expandable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/file-upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/jsplumb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/pager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/slideout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/template-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/test/zero-clipboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/ui/html/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/css/wiki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/doc/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/exemplar/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/exemplar/camel-blueprint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/exemplar/camel-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/exemplar/camel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/exemplar/document.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/exemplar/document.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/exemplar/document.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/exemplar/document.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/exemplar/dozer-mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/exemplar/properties-file.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/camelCanvas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/camelDiagram.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/camelNavBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/camelProperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/camelPropertiesEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/camelSubLevelTabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/commit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/configuration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/configurations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/createPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/dozerMappings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/dozerPropertiesEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/editPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/formEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/formTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/formTableDatatable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/formView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/gitPreferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/layoutWiki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/modal/cantDeleteDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/modal/deleteDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/modal/moveDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/modal/renameDialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/sourceEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/sourceView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/viewBook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/viewNavBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/app/wiki/html/viewPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/ColReorder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/angular-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/angular-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/ambiance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/blackboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/cobalt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/eclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/elegant.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/erlang-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/lesser-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/neat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/rubyblue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/solarized.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/twilight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/vibrant-ink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/codemirror/themes/xq-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/dangle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/datatable.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/dynatree-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/hawtio-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/jquery.gridster.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/metrics-watcher-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/ng-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/site-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/site-branding.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/site-narrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/site-wide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/toastr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/toggle-switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/twilight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/ui.dynatree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/css/vendor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/ZeroClipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/datatable/insert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/datatable/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/datatable/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/datatable/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/datatable/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/datatable/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/dots/gray-dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/dots/green-dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/dots/pending.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/dots/red-dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/dots/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/dots/yellow-dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/dynatree/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/dynatree/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/hawtio_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/hawtio_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/activemq/connector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/activemq/listener.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/activemq/message_broker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/activemq/queue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/activemq/queue_folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/activemq/sender.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/activemq/topic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/activemq/topic_folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/aggregate24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/bean24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/camel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/camel_context_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/camel_route.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/camel_route_folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/camel_tracing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/channel24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/channelAdapter24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/channelPurger24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/choice24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/commandMessage24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/competingConsumers24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/contentBasedRouter24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/contentFilter24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/controlBus24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/convertBodyTo24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/correlationIdentifier24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/customDataFormat24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/datatypeChannel24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/deadLetterChannel24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/detour24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/distributionAggregate24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/documentMessage24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/durableSubscription24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/dynamicRouter24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/edit_camel_route.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/encapsulatedSynchronous24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endoints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoint24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpointDrools24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpointFile24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpointFolder24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpointQueue24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpointRepository24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpointTimer24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoint_folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoint_node.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/SAP24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/SAPNetweaver24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/activemq24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/atom24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/bean24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/cxf24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/cxfrs24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/ejb24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/facebook24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/file24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/ftp24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/ftps24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/imap24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/imaps24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/jdbc24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/jms24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/language24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/linkedin24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/log24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/mqtt24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/netty-http24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/netty24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/netty4-http24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/netty424.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/pop324.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/pop3s24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/quartz224.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/quartz24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/rss24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/salesForce24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/sap-netweaver24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/servlet24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/sftp24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/smtp24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/smtps24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/snmp24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/sql24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/timer24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/twitter24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/weather24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/endpoints/xslt24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/enrich24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/envelopeWrapper24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/eventDrivenConsumer24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/eventMessage24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/fileTransfer24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/filter24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/flow24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/generic24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/guaranteedMessaging24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/idempotentConsumer24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/invalidMessageChannel24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/loadBalance24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/log24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/marshal24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/message24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messageBroker24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messageBus24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messageDispatcher24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messageExpiration24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messageSelector24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messageSequence24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messageStore24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messaging24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messagingAdapter24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messagingBridge24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/messagingGateway24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/multicast24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/node24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/normalizer24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/pipeline24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/pointToPoint24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/pollEnrich24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/pollingConsumer24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/process24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/processManager24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/processor24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/recipientList24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/requestReply24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/resequence24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/returnAddress24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/route24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/routingSlip24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/setBody24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/sharedDatabase24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/smartProxy24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/split24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/storeInLibrary24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/testMessage24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/transactionalClient24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/transform24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/unmarshal24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/camel/wireTap24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/cassandra.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/dozer/attribute.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/dozer/byref.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/dozer/cc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/dozer/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/dozer/dozer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/dozer/exclude.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/dozer/interface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/dozer/oneway.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/fabric.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/fabric8_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/java.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/jetty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/jvm/java-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/jvm/jetty-logo-80x22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/jvm/jolokia-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/jvm/tomcat-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/kubernetes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/message_broker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/messagebroker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/osgi/bundle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/osgi/service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/quartz/quarz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/tomcat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/wiki/folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/icons/wildfly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/img-noise-600x600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/logo-128px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/logo-16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/img/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/ColReorder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/URI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/ZeroClipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/angular-bootstrap-prettify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/angular-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/angular-cookies.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/angular-file-upload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/angular-loader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/angular-resource.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/angular-sanitize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/angular-sanitize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/angular-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/dialog/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/dialog/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/display/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/edit/closebrackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/edit/closetag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/edit/continuecomment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/edit/continuelist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/edit/matchbrackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/fold/brace-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/fold/collapserange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/fold/foldcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/fold/indent-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/fold/xml-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/format/formatting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/hint/html-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/hint/javascript-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/hint/pig-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/hint/python-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/hint/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/hint/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/hint/simple-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/hint/simple-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/hint/xml-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/lint/javascript-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/lint/json-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/lint/lint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/lint/lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/mode/loadmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/mode/multiplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/mode/overlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/runmode/colorize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/runmode/runmode-standalone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/runmode/runmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/runmode/runmode.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/search/match-highlighter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/search/searchcursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/selection/active-line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/addon/selection/mark-selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/keymap/emacs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/keymap/vim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/clike/clike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/clike/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/clike/scala.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/coffeescript/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/coffeescript/coffeescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/coffeescript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/css/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/css/scss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/css/scss_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/css/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/diff/diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/diff/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/htmlembedded/htmlembedded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/htmlembedded/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/htmlmixed/htmlmixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/htmlmixed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/javascript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/javascript/typescript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/markdown/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/markdown/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/markdown/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/meta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/properties/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/properties/properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/sass/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/sass/sass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/shell/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/shell/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/xml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/xml/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/yaml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/mode/yaml/yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/ambiance-mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/ambiance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/blackboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/cobalt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/eclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/elegant.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/erlang-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/lesser-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/midnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/neat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/rubyblue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/solarized.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/twilight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/vibrant-ink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/xq-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/codemirror/theme/xq-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/cubism.v1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/dagre.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/dangle-fix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/dangle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/dataTables.keyTable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/dmr.js.nocache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/dozerField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/dozerFieldExclude.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/dozerMapping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/dozerMappings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/elastic-angular-client.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/elastic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/gantt-chart-d3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/hawtio-plugin-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/javascript-cubism.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jolokia-cubism-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jolokia-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jolokia-simple-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery-ui.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery.backstretch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery.datatable-bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery.dynatree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery.form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery.gridster.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery.gridster.with-extras.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery.jsPlumb-2.1.0-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jquery.xml2json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jsonschema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/jsuri-1.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/coffeescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/csharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/generic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/go.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/haskell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/java.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/ruby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/scheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/language/smalltalk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/less-1.3.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/loggingInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/marked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/metrics-watcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/mvGraphs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/ng-grid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/prefixfree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/rainbow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/sugar-1.4.1-custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/toastr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/ui-bootstrap-0.4.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/lib/ui-bootstrap-tpls-0.4.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms-data/tmp/webapps/jetty-localhost-8161-console_war-_console-any-15446203251711383034.dir/webapp/vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mv/entity/MailMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mv/service/MailMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mv/service/MessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jms.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mv/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mv/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mv/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mv/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb.lck" beforeDir="false" afterPath="$PROJECT_DIR$/testdb.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb.properties" beforeDir="false" afterPath="$PROJECT_DIR$/testdb.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb.script" beforeDir="false" afterPath="$PROJECT_DIR$/testdb.script" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iwk3AYSg0v3LQo4WjgrN86ZjjT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mv.App" />
+      <module name="spring-web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\xjlonly\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3016e48-9635-4132-8bb7-348b10998f3a" name="默认的" comment="" />
+      <created>1602825842335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602825842335</updated>
+      <workItem from="1602825843989" duration="965000" />
+      <workItem from="1602840559359" duration="2732000" />
+      <workItem from="1603098381159" duration="2797000" />
+      <workItem from="1603181570078" duration="1260000" />
+      <workItem from="1603182982577" duration="4513000" />
+    </task>
+    <task id="LOCAL-00001" summary="add signin">
+      <created>1602842632650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602842632650</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add websocket">
+      <created>1603100767771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603100767771</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add websocket">
+      <created>1603100786798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603100786798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add signin" />
+    <MESSAGE value="add websocket" />
+    <option name="LAST_COMMIT_MESSAGE" value="add websocket" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602840807856">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1602840807856" />
+    <state x="765" y="223" width="871" height="593" key="#com.intellij.ide.util.MemberChooser" timestamp="1603184876701">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="223" width="871" height="593" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603184876701" />
+    <state x="689" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602840804485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1602840804485" />
+    <state width="1877" height="337" key="GridCell.Tab.0.bottom" timestamp="1603247498957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603247498957" />
+    <state width="1877" height="337" key="GridCell.Tab.0.center" timestamp="1603247498956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603247498956" />
+    <state width="1877" height="337" key="GridCell.Tab.0.left" timestamp="1603247498956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603247498956" />
+    <state width="1877" height="337" key="GridCell.Tab.0.right" timestamp="1603247498956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603247498956" />
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1603247498957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603247498957" />
+    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1603247498957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603247498957" />
+    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1603247498957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603247498957" />
+    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1603247498957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603247498957" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1603182734693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603182734693" />
+    <state x="681" y="261" width="540" height="540" key="StructurePopup" timestamp="1603185618277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="540" height="540" key="StructurePopup/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603185618277" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602842470215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1602842470215" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/mv/AppConfig.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/mv/service/MailMessageListener.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/mv/service/MessagingService.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

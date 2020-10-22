@@ -1,6 +1,7 @@
 package org.example.mv.service;
 
 import com.sun.jdi.VMOutOfMemoryException;
+import org.example.mv.entity.MailMessage;
 import org.example.mv.entity.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,6 +24,9 @@ public class UserService {
 
     @Autowired
     JdbcTemplate jdbcTemplate;
+
+    @Autowired
+    MessagingService messagingService;
 
     RowMapper<User> userRowMapper = new BeanPropertyRowMapper<>(User.class);
 
@@ -70,6 +74,11 @@ public class UserService {
             throw new RuntimeException(" insert failed");
         }
         user.setId(Objects.requireNonNull(holder.getKey()).longValue());
+        try {
+            messagingService.sendMailMessage(new MailMessage(user.getName()));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return user;
     }
 
